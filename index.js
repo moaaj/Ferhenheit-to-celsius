@@ -3,11 +3,9 @@
 
 
 
-var farn = parseFloat(prompt("Enter Fahrenheit = "));
+var cels = parseFloat(prompt("Enter celsius = "));
 
 
+var farn = (cels * (9/5)) + 32;
 
-var cels = (farn - 32) * (5/9);
-
-
-document.write("Celsius " + cels);
+document.write("ferhenheit = " + farn);
